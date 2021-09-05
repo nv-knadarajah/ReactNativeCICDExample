@@ -12,9 +12,9 @@ export default class Greeting extends Component {
         return (
             <View style={styles.container}>
                 <TextInput style={{ height: 30, borderColor: 'gray', borderWidth: 1 }}
-                    placeholder="Write your name..."
+                    placeholder="Enter your name..."
                     onChangeText={(name) => this.setState({ name })} />
-                <Text style={{marginTop: 10}}>Welcome to this CI/CD example, {this.state.name}!</Text>
+                <Text style={{marginTop: 10}}>Welcome to this React Native CI/CD example, {this.state.name}!</Text>
             </View>
         );
     }
